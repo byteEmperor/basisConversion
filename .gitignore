@@ -1,0 +1,31 @@
+# Ignore CMake build files
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+*.cbp
+compile_commands.json
+
+# JetBrains IDE stuff
+.idea/
+*.iml
+
+# Backup & temp files
+*.swp
+*.user
+*.log
+*.tmp
+*.bak
+
+# Executables and object files
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+
+# Optional: ignore your own compiled binary if named specifically
+
