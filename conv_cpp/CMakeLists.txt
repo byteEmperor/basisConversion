@@ -4,10 +4,14 @@ project(conv_cpp)
 set(CMAKE_CXX_STANDARD 26)
 
 add_executable(conv_cpp main.cpp
-        basis_convertor.cpp
-        basis_convertor.h
-        binary_utils.cpp
-        binary_utils.h
+        parts/basis_convertor.cpp
+        parts/basis_convertor.h
+        parts/binary_utils.cpp
+        parts/binary_utils.h
         decimal_utils.cpp
         decimal_utils.h
 )
+
+
+include_directories(${PROJECT_SOURCE_DIR})
+include_directories(${PROJECT_SOURCE_DIR}/parts)

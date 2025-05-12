@@ -1,10 +1,10 @@
 #include <iostream>
-
-// This is an updated thing
+#include <basis_convertor.h>
 
 int main() {
 
-
+    BasisConvertor basisConvertor;
+    basisConvertor.toBinary(14);
 
 
 
