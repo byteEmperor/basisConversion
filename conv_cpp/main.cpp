@@ -4,7 +4,7 @@
 int main() {
 
     BasisConvertor basisConvertor;
-    basisConvertor.toBinary(14);
+    std::cout << basisConvertor.toBinary(120);
 
 
 
