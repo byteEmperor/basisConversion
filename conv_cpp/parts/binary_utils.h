@@ -8,7 +8,7 @@
 
 namespace BinaryUtils {
     std::bitset<32> toBinary(int number);
-    int IntFromBinary(std::bitset<32> binary);
+
 }
 
 #endif //BINARY_UTILS_H

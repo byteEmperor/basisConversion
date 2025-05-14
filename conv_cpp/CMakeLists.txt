@@ -8,6 +8,10 @@ add_executable(conv_cpp main.cpp
         parts/basis_convertor.h
         parts/binary_utils.cpp
         parts/binary_utils.h
+        parts/decimal_utils.cpp
+        parts/decimal_utils.h
+        parts/octal_utils.cpp
+        parts/octal_utils.h
 )
 
 
